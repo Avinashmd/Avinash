@@ -1,0 +1,6 @@
+.class h1 ~ p{
+  color: #00000064;
+}
+.subclass p{
+  color: #a52a2a;
+}
