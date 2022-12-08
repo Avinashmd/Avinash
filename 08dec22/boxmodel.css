@@ -1,0 +1,9 @@
+
+div{
+  background-color: aqua;
+  width: 300px; 
+  border: 15px red solid;
+  padding: 50px;
+  margin: 20px;
+}
+p.solid {outline-style: solid;}
