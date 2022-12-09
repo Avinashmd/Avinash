@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>css basic grid</title>
+  <style>
+    .wrapper{
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-column-gap: 1em;
+      grid-row-gap: 1em;
+      grid-gap: 1em;
+    }
+    .wrapper >div{
+      background: #eee;
+      padding: 1em;
+    }
+    .wrapper >div:nth-child(odd){
+      background: #ddd;
+
+    }
+
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem ipsam hic non adipisci. Itaque, est quis. Nihil corrupti, placeat repellendus ducimus, veritatis incidunt consectetur est cumque laudantium porro odit, tempora maxime officiis libero velit atque maiores. Aliquam, praesentium numquam amet expedita atque harum modi doloremque culpa iste aut incidunt obcaecati perferendis. Odit dolores quae earum, dolor, fugiat impedit quas veritatis sunt ad illum veniam voluptates corrupti? Iure adipisci voluptas repellendus impedit, id, autem ut vel inventore placeat nesciunt quidem? Ipsam.
+  </div>
+    <div>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo tenetur harum magni ab vitae, adipisci rerum fugit. Voluptas error voluptatibus quos dicta sunt, consectetur quasi molestiae tempora iure quas nisi?
+  </div>
+
+</div>
+<div class="wrapper">
+  <div>
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem ipsam hic non adipisci. Itaque, est quis. Nihil corrupti, placeat repellendus ducimus, veritatis incidunt consectetur est cumque laudantium porro odit, tempora maxime officiis libero velit atque maiores. Aliquam, praesentium numquam amet expedita atque harum modi doloremque culpa iste aut incidunt obcaecati perferendis. Odit dolores quae earum, dolor, fugiat impedit quas veritatis sunt ad illum veniam voluptates corrupti? Iure adipisci voluptas repellendus impedit, id, autem ut vel inventore placeat nesciunt quidem? Ipsam.
+  </div>
+  <div>
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo tenetur harum magni ab vitae, adipisci rerum fugit. Voluptas error voluptatibus quos dicta sunt, consectetur quasi molestiae tempora iure quas nisi?
+</div>
+
+</div>
+
+</body>
+
+</body>
+</html>

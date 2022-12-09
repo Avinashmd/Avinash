@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>grids</title>
+  <style>
+    .wrapper{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 2fr 3fr
+      
+      ;
+      grid-template-rows: 10%;
+      grid-template-columns: auto;
+      grid color: #000;
+
+    }
+     .wrapper >div{
+      background: #eee;
+      padding: 1em;
+    }
+    .wrapper >div:nth-child(odd){
+      background: #ddd;
+
+    }
+  </style>
+
+</head>
+<body>
+  <div class="wrapper"></div>
+  <div>Lorem ipsum dolor sit.</div>
+  <div>Lorem ipsum dolor sit.</div>
+  <div>Lorem ipsum dolor sit.</div>
+  <div>Lorem ipsum dolor sit.</div>
+  <div>Lorem ipsum dolor sit.</div>
+  
+</body>
+</html>
