@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+   *{
+    box-sizing: border-box;
+   } 
+   .header{
+    border: 1px solid red;
+    padding: 15px;
+   }
+   .row::after{
+    content: "";
+    clear:both;
+    display:table;
+   }
+   [class*="col-"]{
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+   }
+   .col-1{width:8.33%;}
+   .col-2{width:16.66%;}
+   .col-3{width:25%;}
+   .col-4{width:33.33%;}
+   .col-5{width:41.33%;}
+   .col-6{width:50%;}
+   .col-7{width:58.33%;}
+   .col-8{width:66.33%;}
+   .col-9{width:75%;}
+   .col-10{width:83.33%;}
+   .col-11{width:91.63%;}
+   .col-12{width:100%;}
+  </style>
+</head>
+<body>
+  <div div class="header">
+    <h1>Banglore</h1>
+  </div>
+  <div class="row">
+    <div class="col-3">
+      <ul>
+        <li>Traffic</li>
+        <li>it industry</li>
+        <li>pubs</li>
+        <li>climate</li>
+      </ul>
+    </div>
+    <div class="col-9">
+      <h1>The city</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat ab iste earum eaque deserunt ea.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio quo exercitationem quas voluptatibus perferendis, doloremque commodi mollitia tenetur deleniti nam!</p>
+    </div>
+  </div>
+</body>
+</html>
