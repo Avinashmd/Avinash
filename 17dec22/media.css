@@ -1,0 +1,52 @@
+body{
+  background-color: cadetblue;
+  padding: 1px;
+}
+h1{
+  text-align: center;
+  background-color: chocolate;
+}
+.notebook{
+  background-color: black;
+  color: coral;
+  font-size: 40px;
+  text-align: center;
+display: none;
+  
+  
+}
+p{
+  background-color: beige;
+  color: darkred;
+  float: left;
+  width: 50%;
+}
+@media (max-width: 350px)
+{
+  .book1{
+    display: block;
+
+  }
+}  
+@media (min-width:250px) and (max-width: 700px)
+
+{
+  .book2{
+    display: block;
+
+  }
+}  
+@media (min-width:700px) and (max-width: 1150px)
+{
+  .book3{
+    display: block;
+
+  }
+}  
+@media (max-width: 1400px)
+{
+  .book4{
+    display: block;
+
+  }
+}  

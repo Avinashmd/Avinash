@@ -2,7 +2,7 @@
   display: flex;
   height: 200px;
   align-items: baseline;
-  background-color: DodgerBlue;
+  background-color: palevioletred;
 }
 
 .flex-container > div {
